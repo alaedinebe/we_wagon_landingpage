@@ -1,0 +1,124 @@
+body {
+	margin-left: 20px;
+	margin-right: 20px;
+	color: rgba(0, 22, 12, 1);
+	font-family: 'Nutino', sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+#banner{
+	height: 500px;
+	/*background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("img/frontwall.jpeg");*/
+	/*background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("img/frontwall2.jpg");*/
+	/*background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("img/frontwall3.jpg");*/
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 10%), url("img/frontwall4.jpg");
+  	background-size: cover;
+	background-position: center;
+	text-align: center;
+	/*padding-left: 100px;*/
+}
+
+#banner h1 {
+	color: rgba(219, 21, 10, 1);
+	/*text-align: center;*/
+	font-size: 80px;
+	padding-top:100px;
+	padding-bottom:40px
+}
+
+#banner p{
+	color:white;
+	opacity: 0.8;
+  	font-size: 30px;
+  	font-weight: lighter;
+  	margin-bottom: 70px;
+  	padding-left: 10px;
+}
+
+#button a {
+  	border-radius: 4px;
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+	padding: 20px;
+	margin-left: 30px;
+	color: rgba(0, 22, 12, 1);
+	background-color: white /*rgba(242, 213, 248, 1)*/;
+  	text-decoration: none;
+}
+
+#button a:hover {
+	color: rgba(0, 22, 12, 1);
+	background-color: rgba(234, 200, 202, 1);
+}
+
+#card-list {
+	display: flex;
+	align-items: center;
+  	background-color: white;
+  	border-radius: 4px;
+  	text-align: center;
+  	box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  	padding-left: 300px;
+  	padding-top: 16px;
+  	padding-bottom: 16px;
+  	padding-right: 16px;
+  	margin: 16px 0px;
+}
+
+.card {
+	padding:10px;
+	margin-right:100px;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+
+.card:hover{
+	box-shadow: 0 10px 10px rgba(50,50,93,.11);
+
+}
+
+#users {
+	display: flex;
+	align-items: center;
+  	background-color: white;
+  	border-radius: 4px;
+  	text-align: center;
+  	box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  	padding-left: 100px;
+  	padding-top: 16px;
+  	padding-bottom: 16px;
+  	padding-right: 16px;
+  	margin: 16px 0px;
+}
+
+.users_card {
+	padding:10px;
+	padding-right:100px;
+	padding-left:90px;
+}
+
+
+.users_card:hover{
+	box-shadow: 0 10px 10px rgba(50,50,93,.11);
+
+}
+
+.footer {
+  background-color: black;
+  padding: 24px;
+  color: white;
+}
+.footer a {
+  color: white;
+  font-size: 32px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 0px 8px;
+}
